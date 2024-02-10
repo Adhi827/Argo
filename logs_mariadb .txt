@@ -1,0 +1,403 @@
+
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "mariadb-tailer:err", "service": "mariadb", "log": {"message": "tail: cannot open '/mariadb/data/nokiainfra-altiplano-mariadb-mariadb-0.err' for reading: No such file or directory"}, "level": "INFO", "time": "2023-11-08T09:14:23.432Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "docker-entrypoint.sh", "service": "mariadb", "log": {"message": "NOTICE: My role: RM."}, "level": "INFO", "time": "2023-11-08T09:14:23.434Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "docker-entrypoint.sh", "service": "mariadb", "log": {"message": "NOTICE: Waiting for 3 cluster nodes."}, "level": "INFO", "time": "2023-11-08T09:14:24.321Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "generate_config.py", "service": "mariadb", "log": {"message": "Waiting for Admin DB to respond..."}, "level": "INFO", "time": "2023-11-08T09:14:24.560Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "generate_config.py", "service": "mariadb", "log": {"message": "Admin DB ready"}, "level": "INFO", "time": "2023-11-08T09:14:24.563Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "generate_config.py", "service": "mariadb", "log": {"message": "Waiting for 3 DB members (require 2 to continue):"}, "level": "INFO", "time": "2023-11-08T09:14:24.564Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "generate_config.py", "service": "mariadb", "log": {"message": "Got 3 of 3 DB members"}, "level": "INFO", "time": "2023-11-08T09:14:29.567Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "docker-entrypoint.sh", "service": "mariadb", "log": {"message": "NOTICE: Starting Bootstrap of MariaDB Database Server!"}, "level": "INFO", "time": "2023-11-08T09:14:29.592Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "docker-entrypoint.sh:err", "service": "mariadb", "log": {"message": "/usr/lib/mariadb/mariadb_bootstrap.sh: line 62: rpm: command not found"}, "level": "INFO", "time": "2023-11-08T09:14:29.598Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "docker-entrypoint.sh", "service": "mariadb", "log": {"message": "INFO: /usr/bin/mariadb_install: ***** STARTED @ Wed Nov  8 09:14:30 UTC 2023 *****"}, "level": "INFO", "time": "2023-11-08T09:14:30.027Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "docker-entrypoint.sh", "service": "mariadb", "log": {"message": "INFO: Importing built-in database users"}, "level": "INFO", "time": "2023-11-08T09:14:30.036Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "docker-entrypoint.sh", "service": "mariadb", "log": {"message": "Password successfully changed for user root"}, "level": "INFO", "time": "2023-11-08T09:14:30.345Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "docker-entrypoint.sh", "service": "mariadb", "log": {"message": "Password successfully changed for user repl@b.c"}, "level": "INFO", "time": "2023-11-08T09:14:30.345Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "docker-entrypoint.sh", "service": "mariadb", "log": {"message": "Password successfully changed for user root"}, "level": "INFO", "time": "2023-11-08T09:14:30.346Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "docker-entrypoint.sh", "service": "mariadb", "log": {"message": "Password successfully changed for user maxscale"}, "level": "INFO", "time": "2023-11-08T09:14:30.346Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "docker-entrypoint.sh", "service": "mariadb", "log": {"message": "Password successfully changed for user maxscale"}, "level": "INFO", "time": "2023-11-08T09:14:30.346Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "docker-entrypoint.sh", "service": "mariadb", "log": {"message": "INFO: Importing additional database users and updating maxscale user"}, "level": "INFO", "time": "2023-11-08T09:14:30.366Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "docker-entrypoint.sh", "service": "mariadb", "log": {"message": "INFO: Install MariaDB Database @ /mariadb/data."}, "level": "INFO", "time": "2023-11-08T09:14:30.828Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "docker-entrypoint.sh", "service": "mariadb", "log": {"message": "Cannot change ownership of the database directories to the 'mysql'"}, "level": "INFO", "time": "2023-11-08T09:14:30.861Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "docker-entrypoint.sh", "service": "mariadb", "log": {"message": "user.  Check that you have the necessary permissions and try again."}, "level": "INFO", "time": "2023-11-08T09:14:30.862Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "docker-entrypoint.sh", "service": "mariadb", "log": {"message": "chown: changing ownership of '/mariadb/data': Operation not permitted"}, "level": "INFO", "time": "2023-11-08T09:14:30.863Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "docker-entrypoint.sh", "service": "mariadb", "log": {"message": "ERROR: Failed to install MariaDB database!"}, "level": "INFO", "time": "2023-11-08T09:14:30.863Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "docker-entrypoint.sh:err", "service": "mariadb", "log": {"message": "ERROR: Failed to install --replicate=master database node, RC=8."}, "level": "INFO", "time": "2023-11-08T09:14:30.863Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "harmonize_log", "service": "mariadb", "log": {"message": "Process docker-entrypoint.sh:err pid 8 died with code 15; exiting"}, "level": "INFO", "time": "2023-11-08T09:14:30.864Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "harmonize_log", "service": "mariadb", "log": {"message": "Process docker-entrypoint.sh pid 8 died with code 15; exiting"}, "level": "INFO", "time": "2023-11-08T09:14:30.864Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "harmonize_log", "service": "mariadb", "log": {"message": "Exit started - requested(False) or subprocess died(True,code 15)"}, "level": "INFO", "time": "2023-11-08T09:14:31.921Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "harmonize_log", "service": "mariadb", "log": {"message": "Process mariadb-tailer:err pid 11 died with code -15; exiting"}, "level": "INFO", "time": "2023-11-08T09:14:31.921Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "harmonize_log", "service": "mariadb", "log": {"message": "Process mariadb-tailer pid 11 died with code -15; exiting"}, "level": "INFO", "time": "2023-11-08T09:14:31.922Z"}
+{"version": "1.0", "type": "log", "host": "nokiainfra-altiplano-mariadb-mariadb-0.starhub", "process": "harmonize_log", "service": "mariadb", "log": {"message": "harmonize_log exiting with code 15"}, "level": "INFO", "time": "2023-11-08T09:14:32.923Z"}
+
+
+
+
+root@saas:~# kubectl get pods -n starhub
+^[[28~NAME                                                           READY   STATUS             RESTARTS         AGE
+altiplano-kafka-0                                              2/2     Running            0                50m
+altiplano-kafka-1                                              2/2     Running            0                49m
+altiplano-kafka-2                                              2/2     Running            0                48m
+altiplano-pts-pushgateway-6d5658c5cf-rdnhz                     1/1     Running            0                50m
+altiplano-pts-server-65d8cd794-wqqds                           3/3     Running            0                50m
+altiplano-zookeeper-0                                          2/2     Running            0                50m
+altiplano-zookeeper-1                                          2/2     Running            0                50m
+altiplano-zookeeper-2                                          2/2     Running            0                50m
+nokiainfra-altiplano-cbur-5dc56cdcbf-hrj64                     1/1     Running            0                51m
+nokiainfra-altiplano-cbur-k8swatcher-f499859fd-p58vl           1/1     Running            0                51m
+nokiainfra-altiplano-cbur-mycelery-9674ddcdf-hgpbd             3/3     Running            0                51m
+nokiainfra-altiplano-elasticsearch-client-65458d58b9-9q798     1/1     Running            0                51m
+nokiainfra-altiplano-elasticsearch-client-65458d58b9-d2g66     1/1     Running            0                51m
+nokiainfra-altiplano-elasticsearch-client-65458d58b9-pdglj     1/1     Running            0                51m
+nokiainfra-altiplano-elasticsearch-data-0                      2/2     Running            0                50m
+nokiainfra-altiplano-elasticsearch-data-1                      2/2     Running            0                50m
+nokiainfra-altiplano-elasticsearch-data-2                      2/2     Running            0                50m
+nokiainfra-altiplano-elasticsearch-master-0                    1/1     Running            0                50m
+nokiainfra-altiplano-elasticsearch-master-1                    1/1     Running            0                50m
+nokiainfra-altiplano-elasticsearch-master-2                    1/1     Running            0                50m
+nokiainfra-altiplano-fluentd-ds-2xq5v                          1/1     Running            0                51m
+nokiainfra-altiplano-fluentd-ds-4j85z                          1/1     Running            0                51m
+nokiainfra-altiplano-fluentd-ds-xrzwq                          1/1     Running            0                51m
+nokiainfra-altiplano-grafana-0                                 3/3     Running            0                50m
+nokiainfra-altiplano-hbase-master-0                            2/2     Running            0                50m
+nokiainfra-altiplano-hbase-master-1                            2/2     Running            0                48m
+nokiainfra-altiplano-hbase-regionserver-0                      1/1     Running            0                50m
+nokiainfra-altiplano-hbase-regionserver-1                      1/1     Running            0                48m
+nokiainfra-altiplano-hdfs-datanode-0                           1/1     Running            0                50m
+nokiainfra-altiplano-hdfs-datanode-1                           1/1     Running            0                48m
+nokiainfra-altiplano-hdfs-datanode-2                           1/1     Running            0                48m
+nokiainfra-altiplano-hdfs-journalnode-0                        1/1     Running            0                50m
+nokiainfra-altiplano-hdfs-journalnode-1                        1/1     Running            0                50m
+nokiainfra-altiplano-hdfs-journalnode-2                        1/1     Running            0                50m
+nokiainfra-altiplano-hdfs-namenode-0                           1/1     Running            0                50m
+nokiainfra-altiplano-hdfs-namenode-1                           1/1     Running            0                49m
+nokiainfra-altiplano-ingress-47b52                             1/1     Running            0                51m
+nokiainfra-altiplano-ingress-5bckw                             1/1     Running            0                51m
+nokiainfra-altiplano-ingress-lz26d                             1/1     Running            0                51m
+nokiainfra-altiplano-keycloak-544bd87d87-zcjww                 0/1     Running            6 (7m17s ago)    51m
+nokiainfra-altiplano-kibana-645b7fc8c6-bdvdx                   0/1     Init:0/1           0                51m
+nokiainfra-altiplano-mariadb-admin-7b4f9d44bd-qkt4t            1/1     Running            0                51m
+nokiainfra-altiplano-mariadb-mariadb-0                         2/3     CrashLoopBackOff   21 (86s ago)     50m
+nokiainfra-altiplano-mariadb-mariadb-1                         1/3     CrashLoopBackOff   21 (2m1s ago)    50m
+nokiainfra-altiplano-mariadb-mariadb-2                         2/3     CrashLoopBackOff   21 (90s ago)     50m
+nokiainfra-altiplano-mariadb-maxscale-0                        1/3     Error              14 (9m19s ago)   50m
+nokiainfra-altiplano-opentsdb-74d455fd74-gwbdj                 3/3     Running            0                50m
+nokiainfra-altiplano-opentsdb-oauthproxy-58c9c8d6dd-8qssz      0/1     Init:0/1           0                50m
+nokiainfra-altiplano-pts-kube-state-metrics-77c77f46d5-l5hgk   1/1     Running            0                50m
+nokiainfra-altiplano-pts-node-exporter-rzwm6                   1/1     Running            0                51m
+nokiainfra-altiplano-pts-node-exporter-s9krx                   1/1     Running            0                51m
+nokiainfra-altiplano-pts-node-exporter-szckz                   1/1     Running            0                51m
+nokiainfra-altiplano-redis-admin-0                             1/1     Running            0                50m
+nokiainfra-altiplano-redis-sentinel-0                          1/1     Running            0                50m
+nokiainfra-altiplano-redis-sentinel-1                          1/1     Running            0                50m
+nokiainfra-altiplano-redis-sentinel-2                          1/1     Running            0                50m
+nokiainfra-altiplano-redis-server-0                            3/3     Running            0                50m
+nokiainfra-altiplano-redis-server-1                            3/3     Running            0                50m
+nokiainfra-altiplano-redis-server-2                            3/3     Running            0                50m
+nokiainfra-altiplano-webdav-7c79459948-q2m2h                   2/2     Running            0                50m
+nokiainfra-default404-cd95f7cf-qtfft                           1/1     Running            0                51m
+
+
+
+kubectl describe pod nokiainfra-altiplano-mariadb-mariadb-0 -n starhub
+Name:         nokiainfra-altiplano-mariadb-mariadb-0
+Namespace:    starhub
+Priority:     0
+Node:         ip-10-0-22-87.ec2.internal/10.0.22.87
+Start Time:   Wed, 08 Nov 2023 10:25:04 +0200
+Labels:       app=nokiainfra-altiplano-mariadb
+              app.kubernetes.io/component=mariadb
+              app.kubernetes.io/instance=nokiainfra
+              app.kubernetes.io/managed-by=Helm
+              app.kubernetes.io/name=nokiainfra-altiplano-mariadb
+              app.kubernetes.io/version=cmdb-5.2-2_mariadb-10.6.8
+              cmdb-dbtype=mariadb
+              controller-revision-hash=nokiainfra-altiplano-mariadb-mariadb-6b7c546db
+              csf-component=cmdb
+              csf-subcomponent=mariadb
+              helm.sh/chart=altiplano-mariadb-8.2.3-nokia-patch-5
+              heritage=Helm
+              release=nokiainfra
+              statefulset.kubernetes.io/pod-name=nokiainfra-altiplano-mariadb-mariadb-0
+              type=mariadb
+Annotations:  checksum/datacenter: 9eb2bf6f9184ea773ab9ac2d4ebcc828f1dcf484d50317b581976fd93fc9558b
+              checksum/promotion: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+              kubectl.kubernetes.io/default-container: mariadb
+              kubectl.kubernetes.io/default-logs-container: mariadb
+              kubernetes.io/psp: eks.privileged
+              sidecar.istio.io/inject: false
+Status:       Running
+IP:           10.0.31.220
+IPs:
+  IP:           10.0.31.220
+Controlled By:  StatefulSet/nokiainfra-altiplano-mariadb-mariadb
+Init Containers:
+  init-config:
+    Container ID:  docker://5208ba13b7cb6936adb0223bdfe2384a5a5eef9fe63c41f2d30ae14948c4b578
+    Image:         546683116358.dkr.ecr.us-east-1.amazonaws.com/starhub1/fnms-mariadb:nokia-1.0.6
+    Image ID:      docker-pullable://546683116358.dkr.ecr.us-east-1.amazonaws.com/starhub1/fnms-mariadb@sha256:2b3b3b65d3dc9ed986aa045d813059aadccf47c09377a74d9c7350c2e1ba4fb7
+    Port:          <none>
+    Host Port:     <none>
+    Command:
+      bash
+      -c
+      . /usr/lib/mariadb/docker-functions
+      import_config_common
+      import_config_mariadb
+
+      import_certificates
+
+    State:          Terminated
+      Reason:       Completed
+      Exit Code:    0
+      Started:      Wed, 08 Nov 2023 10:25:09 +0200
+      Finished:     Wed, 08 Nov 2023 10:25:10 +0200
+    Ready:          True
+    Restart Count:  0
+    Limits:
+      cpu:                100m
+      ephemeral-storage:  64Mi
+      memory:             64Mi
+    Requests:
+      cpu:                100m
+      ephemeral-storage:  64Mi
+      memory:             64Mi
+    Environment:
+      TZ:  UTC
+    Mounts:
+      /etc/mariadb from fs-etcmariadb (rw)
+      /import/auth from auth-secrets (rw)
+      /import/certs from mdb-certificates (ro)
+      /import/datacenter-cm from import-datacenter-cm (rw)
+      /import/db.d from import-db (rw)
+      /import/mariadb-cm from import-mariadb-cm (rw)
+      /import/maxscale-cm from import-maxscale-cm (rw)
+      /import/users from import-users (rw)
+      /my.cnf.d from fs-etcmycnfd (rw)
+Containers:
+  mariadb:
+    Container ID:   docker://f54162747da5794b1fd531088dd59c46825364b0a2802466f681ddd2b34b8eee
+    Image:          546683116358.dkr.ecr.us-east-1.amazonaws.com/starhub1/fnms-mariadb:nokia-1.0.6
+    Image ID:       docker-pullable://546683116358.dkr.ecr.us-east-1.amazonaws.com/starhub1/fnms-mariadb@sha256:2b3b3b65d3dc9ed986aa045d813059aadccf47c09377a74d9c7350c2e1ba4fb7
+    Ports:          3306/TCP, 4444/TCP
+    Host Ports:     0/TCP, 0/TCP
+    State:          Waiting
+      Reason:       CrashLoopBackOff
+    Last State:     Terminated
+      Reason:       Error
+      Exit Code:    15
+      Started:      Wed, 08 Nov 2023 11:19:43 +0200
+      Finished:     Wed, 08 Nov 2023 11:19:52 +0200
+    Ready:          False
+    Restart Count:  15
+    Limits:
+      cpu:                5
+      ephemeral-storage:  1Gi
+      memory:             5Gi
+    Requests:
+      cpu:                500m
+      ephemeral-storage:  1Gi
+      memory:             500Mi
+    Liveness:             exec [/usr/lib/mariadb/sanity-hook mariadb liveness] delay=300s timeout=5s period=10s #success=1 #failure=6
+    Readiness:            exec [/usr/lib/mariadb/sanity-hook mariadb readiness] delay=10s timeout=5s period=15s #success=1 #failure=3
+    Environment:
+      CLUSTER_TYPE:           master-slave
+      CLUSTER_NAME:           mariadb
+      K8S_NAMESPACE:          starhub
+      REQUIRE_USERS_JSON:     yes
+      MYSQLD_OPTS:            --safe-user-create=ON
+      TZ:                     UTC
+      REPLICATION_USER:       <set to the key 'username' in secret 'db-user-replication-secret'>  Optional: false
+      MAXSCALE_USER:          <set to the key 'username' in secret 'db-user-maxscale-secret'>     Optional: false
+      MYSQL_METRICS_USER:     <set to the key 'username' in secret 'db-user-root-secret'>         Optional: false
+      MAXSCALE_METRICS_USER:  <set to the key 'username' in secret 'db-user-maxscale-secret'>     Optional: false
+      ADMIN_SERVICE_NAME:     nokiainfra-altiplano-mariadb-admin
+    Mounts:
+      /chart from cluster-cm (rw)
+      /etc/certs/maxscale/ from mxs-certificates-server (ro)
+      /etc/mariadb from fs-etcmariadb (rw)
+      /etc/my.cnf.d from fs-etcmycnfd (rw)
+      /etc/supervisord.d from fs-etcsupervisord (rw)
+      /mariadb from datadir (rw)
+      /mariadb/backup from backupdir (rw)
+      /metrics from metrics (rw)
+      /tmp from fs-tmp (rw)
+      /var/lib/cmdb from fs-varlibcmdb (rw)
+      /var/lib/mysql from fs-varlibmysql (rw)
+      /var/log/mariadb from fs-varlogmariadb (rw)
+      /var/log/supervisor from fs-varlogsupervisor (rw)
+      /var/run/supervisor from fs-varrunsupervisor (rw)
+  metrics:
+    Container ID:  docker://d09d2740f6bc5dff6a4fd98bed0755085dae94343fb0f6ad4b598ba669442f8a
+    Image:         546683116358.dkr.ecr.us-east-1.amazonaws.com/starhub1/cmdb/mysqld-exporter:0.13.0-7.195.el8
+    Image ID:      docker-pullable://546683116358.dkr.ecr.us-east-1.amazonaws.com/starhub1/cmdb/mysqld-exporter@sha256:741fb8d1b2a3d8394217cb7d4b3531a2108996d75a632c2d3120e670eeae32bf
+    Port:          9104/TCP
+    Host Port:     0/TCP
+    Args:
+      start-dir=/metrics
+      start-timeout=300
+      --web.listen-address=[::]:9104
+    State:          Running
+      Started:      Wed, 08 Nov 2023 11:16:12 +0200
+    Last State:     Terminated
+      Reason:       Error
+      Exit Code:    1
+      Started:      Wed, 08 Nov 2023 11:11:00 +0200
+      Finished:     Wed, 08 Nov 2023 11:16:00 +0200
+    Ready:          True
+    Restart Count:  8
+    Limits:
+      cpu:                250m
+      ephemeral-storage:  128Mi
+      memory:             256Mi
+    Requests:
+      cpu:                250m
+      ephemeral-storage:  128Mi
+      memory:             256Mi
+    Environment:          <none>
+    Mounts:
+      /metrics from metrics (rw)
+  cbura-sidecar:
+    Container ID:   docker://2f8d2633f29dc6013668aeccda6963716cef181cc0aa9a8e4f186db50f8f36e1
+    Image:          546683116358.dkr.ecr.us-east-1.amazonaws.com/starhub1/cbur/cbura:1.0.3-4164
+    Image ID:       docker-pullable://546683116358.dkr.ecr.us-east-1.amazonaws.com/starhub1/cbur/cbura@sha256:7fd314d4a0fbc3981a920665168bb1caf005b66a1ea04eec2b30e44b8a1e84de
+    Port:           <none>
+    Host Port:      <none>
+    State:          Running
+      Started:      Wed, 08 Nov 2023 10:25:11 +0200
+    Ready:          True
+    Restart Count:  0
+    Limits:
+      cpu:                1
+      ephemeral-storage:  128Mi
+      memory:             2Gi
+    Requests:
+      cpu:                250m
+      ephemeral-storage:  128Mi
+      memory:             256Mi
+    Environment:          <none>
+    Mounts:
+      /tmp from cburtmp (rw)
+      backupdir from backupdir (rw)
+Conditions:
+  Type              Status
+  Initialized       True
+  Ready             False
+  ContainersReady   False
+  PodScheduled      True
+Volumes:
+  datadir:
+    Type:       PersistentVolumeClaim (a reference to a PersistentVolumeClaim in the same namespace)
+    ClaimName:  datadir-nokiainfra-altiplano-mariadb-mariadb-0
+    ReadOnly:   false
+  backupdir:
+    Type:       PersistentVolumeClaim (a reference to a PersistentVolumeClaim in the same namespace)
+    ClaimName:  backupdir-nokiainfra-altiplano-mariadb-mariadb-0
+    ReadOnly:   false
+  cburtmp:
+    Type:       PersistentVolumeClaim (a reference to a PersistentVolumeClaim in the same namespace)
+    ClaimName:  cburtmp-nokiainfra-altiplano-mariadb-mariadb-0
+    ReadOnly:   false
+  fs-tmp:
+    Type:       EmptyDir (a temporary directory that shares a pod's lifetime)
+    Medium:
+    SizeLimit:  <unset>
+  fs-etcmariadb:
+    Type:       EmptyDir (a temporary directory that shares a pod's lifetime)
+    Medium:
+    SizeLimit:  <unset>
+  fs-etcmycnfd:
+    Type:       EmptyDir (a temporary directory that shares a pod's lifetime)
+    Medium:
+    SizeLimit:  <unset>
+  fs-varlibmysql:
+    Type:       EmptyDir (a temporary directory that shares a pod's lifetime)
+    Medium:
+    SizeLimit:  <unset>
+  fs-varlibcmdb:
+    Type:       EmptyDir (a temporary directory that shares a pod's lifetime)
+    Medium:
+    SizeLimit:  <unset>
+  fs-varlogmariadb:
+    Type:       EmptyDir (a temporary directory that shares a pod's lifetime)
+    Medium:
+    SizeLimit:  <unset>
+  fs-etcsupervisord:
+    Type:       EmptyDir (a temporary directory that shares a pod's lifetime)
+    Medium:
+    SizeLimit:  <unset>
+  fs-varrunsupervisor:
+    Type:       EmptyDir (a temporary directory that shares a pod's lifetime)
+    Medium:
+    SizeLimit:  <unset>
+  fs-varlogsupervisor:
+    Type:       EmptyDir (a temporary directory that shares a pod's lifetime)
+    Medium:
+    SizeLimit:  <unset>
+  cluster-cm:
+    Type:      ConfigMap (a volume populated by a ConfigMap)
+    Name:      nokiainfra-altiplano-mariadb-mariadb-cluster
+    Optional:  false
+  import:
+    Type:       EmptyDir (a temporary directory that shares a pod's lifetime)
+    Medium:
+    SizeLimit:  <unset>
+  import-mariadb-cm:
+    Type:      ConfigMap (a volume populated by a ConfigMap)
+    Name:      nokiainfra-altiplano-mariadb-mariadb-config
+    Optional:  false
+  import-maxscale-cm:
+    Type:      ConfigMap (a volume populated by a ConfigMap)
+    Name:      nokiainfra-altiplano-mariadb-maxscale-config
+    Optional:  false
+  import-datacenter-cm:
+    Type:      ConfigMap (a volume populated by a ConfigMap)
+    Name:      nokiainfra-altiplano-mariadb-datacenter
+    Optional:  false
+  import-users:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  nokiainfra-altiplano-mariadb-mariadb-initialusers
+    Optional:    true
+  import-db:
+    Type:      ConfigMap (a volume populated by a ConfigMap)
+    Name:      nokiainfra-altiplano-mariadb-mariadb-databases
+    Optional:  false
+  auth-secrets:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  nokiainfra-altiplano-mariadb-admin-secrets
+    Optional:    false
+  mdb-certificates:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  altiplano-secrets-all-certs
+    Optional:    false
+  mxs-certificates-server:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  altiplano-secrets-all-certs
+    Optional:    false
+  metrics:
+    Type:        EmptyDir (a temporary directory that shares a pod's lifetime)
+    Medium:      Memory
+    SizeLimit:   <unset>
+QoS Class:       Burstable
+Node-Selectors:  <none>
+Tolerations:     node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                 node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type     Reason     Age                  From               Message
+  ----     ------     ----                 ----               -------
+  Normal   Scheduled  56m                  default-scheduler  Successfully assigned starhub/nokiainfra-altiplano-mariadb-mariadb-0 to ip-10-0-22-87.ec2.internal
+  Normal   Created    56m                  kubelet            Created container init-config
+  Normal   Started    56m                  kubelet            Started container init-config
+  Normal   Pulled     56m                  kubelet            Container image "546683116358.dkr.ecr.us-east-1.amazonaws.com/starhub1/fnms-mariadb:nokia-1.0.6" already present on machine
+  Normal   Started    55m                  kubelet            Started container metrics
+  Normal   Started    55m                  kubelet            Started container cbura-sidecar
+  Normal   Created    55m                  kubelet            Created container cbura-sidecar
+  Normal   Pulled     55m                  kubelet            Container image "546683116358.dkr.ecr.us-east-1.amazonaws.com/starhub1/cbur/cbura:1.0.3-4164" already present on machine
+  Normal   Created    55m                  kubelet            Created container metrics
+  Normal   Pulled     55m                  kubelet            Container image "546683116358.dkr.ecr.us-east-1.amazonaws.com/starhub1/cmdb/mysqld-exporter:0.13.0-7.195.el8" already present on machine
+  Warning  Unhealthy  55m (x2 over 55m)    kubelet            Readiness probe failed: SANITY: /tmp/mariadb-readiness not found
+  Normal   Started    54m (x3 over 55m)    kubelet            Started container mariadb
+  Normal   Created    54m (x3 over 56m)    kubelet            Created container mariadb
+  Normal   Pulled     54m (x3 over 56m)    kubelet            Container image "546683116358.dkr.ecr.us-east-1.amazonaws.com/starhub1/fnms-mariadb:nokia-1.0.6" already present on machine
+  Warning  BackOff    49s (x266 over 55m)  kubelet            Back-off restarting failed container
+root@saas:~#
+
